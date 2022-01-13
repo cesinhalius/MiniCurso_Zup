@@ -17,6 +17,10 @@ main{
     display: flex;
     height: 100vh;
     justify-content: center;
-    position: relative;
-    
+    position: relative;   
+}
+
+main > section img{
+    height: 300px;
+    margin: 15px 0;
 }
