@@ -38,6 +38,7 @@ main > section button {
     line-height: 15px;
     padding: 9px 23px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #detalhes-container {
@@ -45,4 +46,14 @@ main > section button {
     list-style-type: none;
     width: 90%;
     
+}
+
+#detalhes-container > li {
+    align-items: baseline;
+    display: flex;
+}
+
+
+#detalhes-container > li p{
+     color: #fff;
 }
