@@ -35,7 +35,7 @@ pegarPersonagem = () => {
         imagem.alt = data.name;
         nomeDoPersonagem.innerHTML = data.name;
         especie.innerHTML = data.species;
-        condicao.innerHTML = data.status;
+        condicao.innerHTML = traduzirCondicao(data);
     });
 }
 
