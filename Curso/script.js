@@ -5,13 +5,22 @@ const especie = document.querySelector('#especie');
 const condicao = document.querySelector('#status');
 
 
-gerarValorAleatorio = () => {
-    return Math.floor(Math.random() * 671);
+traduzirCondicao = (data) =>{
+    if(data.status == 'unknown'){
+        return 'Não sabemos'
+    }else if(data.status == 'Alive'){
+        return 'Sim'
+    }else{
+        return 'Não,Esta Morto'
+    }
 }
 
 
 
 
+gerarValorAleatorio = () => {
+    return Math.floor(Math.random() * 671);
+}
 
 pegarPersonagem = () => {
     let numeroAleatorio = gerarValorAleatorio();
