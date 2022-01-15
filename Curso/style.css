@@ -21,8 +21,13 @@ main{
 }
 
 main > section img{
+    display: flex;
     height: 300px;
     margin: 15px 0;
+}
+
+main > section ul#detalhes-personagen{
+    display: block;
 }
 
 
